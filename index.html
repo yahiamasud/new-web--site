@@ -18,88 +18,183 @@
 <body >
 <!-- this is header stat -->
 <header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg ">
+    <div class="container header-part">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="./Accesst/img/Treloo.png" alt=""></a>
+              <a class="navbar-brand text-white" href="#"><img src="./Accesst/img/Treloo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse  justify-content-center align-content-center" id="navbarNav">
-                <ul class="navbar-nav ms-auto  ">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Review</a>
+              <div class="collapse  navbar-collapse  header-nav  justify-content-center align-content-center" id="navbarNav">
+                <ul class="navbar-nav  header-navbar ms-auto  ">
+                  <li class="nav-item navbar-item">
+                    <a class="nav-link  navbar-link " aria-current="page" href="#">Review</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Tips</a>
+                  <li class="nav-item navbar-item ">
+                    <a class="nav-link navbar-link" href="#">Tips</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Alerts</a>
+                  <li class="nav-item navbar-item ">
+                    <a class="nav-link navbar-link " href="#">Alerts</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#" >Blong</a>
+                  <li class="nav-item navbar-item">
+                    <a class="nav-link  navbar-link " href="#" >Blong</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#" >Blong</a>
+                  <li class="nav-item navbar-item">
+                    <a class="nav-link navbar-link " href="#" >Blong</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </div>
-</header>
-
+</header> 
+<!-- this is header-bannar -->
+<div class="bannar container-fluid" style="background-image:url(accesst/img/banar_hile.png);" >
+  <div class="row bannar-item justify-content-center">
+    <div class="col-lg-8 bannar-txet">
+      <h1>Discover Your Life, Travel Where You Want</h1>
+      <p>Would you explore natur paradise in the world, let’s find the best destination in world with us.</p>
+    </div>
+  </div>
+</div>
 
 
 
 <!-- this is main start -->
 <main>
   
-  <!-- this is offers -->
+  <!-- this is Special  -->
 <section>
   <div class="container">
-    <div class="row justify-content-center ">
-      <div class="offers-text col-lg-12 text-center special-text ">
+    <div class="row justify-content-center spceil-item ">
+      <div class="col-lg-12 text-center special-text ">
         <h2>Special Upcoming Offers</h2>
       </div>
-
-      <div class="col-lg-3 text-center offers">
-        <ul class="nav nav-tabs justify-content-center">
-          <li class="nav-item nav-items">
-            <a class="nav-link" href="#">Team</a>
+<!-- this is Special nav-tabs -->
+      <div class="col-lg-3 text-center spceil-nav">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Team</button>
           </li>
-          <li class="nav-item nav-items ">
-            <a class="nav-link" href="#">Couple</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Couple</button>
           </li>
-          <li class="nav-item nav-items ">
-            <a class="nav-link" href="#">Family</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Family</button>
           </li>
+         
         </ul>
       </div>
+<!-- this is nav-tabs card-box -->
 
 
-      <div class="row gy-sm-5 box-1-card">
+<!-- box-1-team-->
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          <div class="row  box-1-card">
+            <div class="col-lg-4">
+              <div class="card box-card rounded-5 ">
+                <div class="card-body ">
+                  <img src="Accesst/img/see (2).png"class="img-fulid">  <br>
+                  <span class="relax " >Relax</span>
+                  <span class="naights" >3 Days, 3 Nights</span>
+                  <h5 class="card-title">Loga Sea</h5>
+                  <a href="#"class="person">700$<span class="personmd">/person</span></a>
+                  <button class="btn button-book btn-primary ">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="card rounded-5">
+                <div class="card-body">
+                  <img src="Accesst/img/hile_seet.png"class="img-fulid ">  <br>
+                  <span class="adventure " >Adventure</span>
+                  <span class="naights">3 Days, 3 Nights</span>
+                  <h5 class="card-title">Loga Sea</h5>
+                  <a href="#" class="person ">700$<span class="personmd">/person</span></a>
+                  <button class="btn button-book btn-primary">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card rounded-5">
+                <div class="card-body  ">
+                  <img src="Accesst/img/man_see.png"class="img-fulid" > <br>
+                  <span class="relax" >Relax</span>
+                  <span class="naights" >3 Days, 3 Nights</span>
+                  <h5 class="card-title">Loga Sea</h5>
+                  <a href="#"class="person" >700$<span class="personmd">/person</span></a>
+                  <button class="btn button-book btn-primary ">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- box-2-couple-->
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"> 
+          <div class="row  box-1-card">
+            <div class="col-lg-4">
+              <div class="card box-card rounded-5 ">
+                <div class="card-body ">
+                  <img src="Accesst/img/see (2).png"class="img-fulid">  <br>
+                  <span class="relax " >Relax</span>
+                  <span class="naights" >3 Days, 3 Nights</span>
+                  <h5 class="card-title">Loga Sea</h5>
+                  <a href="#"class="person">700$<span class="personmd">/person</span></a>
+                  <button class="btn button-book btn-primary ">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="card rounded-5">
+                <div class="card-body">
+                  <img src="Accesst/img/hile_seet.png"class="img-fulid ">  <br>
+                  <span class="adventure " >Adventure</span>
+                  <span class="naights">3 Days, 3 Nights</span>
+                  <h5 class="card-title">Loga Sea</h5>
+                  <a href="#" class="person ">700$<span class="personmd">/person</span></a>
+                  <button class="btn button-book btn-primary">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card rounded-5">
+                <div class="card-body  ">
+                  <img src="Accesst/img/hile_seet.png"class="img-fulid" > <br>
+                  <span class="relax" >Relax</span>
+                  <span class="naights" >3 Days, 3 Nights</span>
+                  <h5 class="card-title">Loga Sea</h5>
+                  <a href="#"class="person" >700$<span class="personmd">/person</span></a>
+                  <button class="btn button-book btn-primary ">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- box-3-family-->
+    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+      <div class="row  box-1-card">
         <div class="col-lg-4">
-          <div class="card rounded-5">
+          <div class="card box-card rounded-5 ">
             <div class="card-body ">
-              <img src="Accesst/img/see (2).png"class="img-fulid"> <br>
+              <img src="Accesst/img/see (2).png"class="img-fulid">  <br>
               <span class="relax " >Relax</span>
               <span class="naights" >3 Days, 3 Nights</span>
               <h5 class="card-title">Loga Sea</h5>
               <a href="#"class="person">700$<span class="personmd">/person</span></a>
-              <button class="btn btn-primary">Book Now</button>
+              <button class="btn button-book btn-primary ">Book Now</button>
             </div>
           </div>
         </div>
         <div class="col-lg-4 ">
           <div class="card rounded-5">
             <div class="card-body">
-              <img src="Accesst/img/hile_seet.png"class="img-fulid "> <br>
+              <img src="Accesst/img/hile_seet.png"class="img-fulid ">  <br>
               <span class="adventure " >Adventure</span>
               <span class="naights">3 Days, 3 Nights</span>
               <h5 class="card-title">Loga Sea</h5>
-              <a href="#" class="person">700$<span class="personmd">/person</span></a>
-              <button class="btn btn-primary">Book Now</button>
+              <a href="#" class="person ">700$<span class="personmd">/person</span></a>
+              <button class="btn button-book btn-primary">Book Now</button>
             </div>
           </div>
         </div>
@@ -111,27 +206,28 @@
               <span class="naights" >3 Days, 3 Nights</span>
               <h5 class="card-title">Loga Sea</h5>
               <a href="#"class="person" >700$<span class="personmd">/person</span></a>
-              <button class="btn btn-primary ">Book Now</button>
+              <button class="btn button-book btn-primary ">Book Now</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </sectio>
+  </div>
 </section>
+
 <!-- this is travel  section -->
 <section>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="Accesst/img/hile_see_man.png"class="img-fulid" > 
+    <div class="row treavel">
+      <div class="col-lg-6 treavel-img">
+        <h4 class="badge badge-text"><br>300+<br><p>DESTINATIONS</p></h4>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 treave-text">
         <h1>Travel Any Corner of The World With Us</h1>
         <p>Would you explore nature paradise in the world, let’s find the best destination in world with us, Would you explore nature paradise in the world, let’s find the best destination in world with us. Would you explore nature paradise in the world, let’s find the best destination in world with us.
 
-          Would you explore nature paradise in the world, let’s find the best destination in world with us.</p>
-        <button class="btn btn-primary"> Contact user</button>
+        Would you explore nature paradise in the world, let’s find the best destination in world with us.</p>
+        <button class="btn btn-primary treavel-button"> Contact user</button>
       </div>
     </div>
   </div>
@@ -139,64 +235,128 @@
 <!-- this is recommended section -->
 <section>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
+    <div class="row Recommened ">
+      <div class="col-lg-12 Recommened-text text-center">
         <h2>Recommended Destination</h2>
       </div>
     </div>
-    <div class="row">
+<!-- recommended nav-tabs -->
+
+    <div class="row ">
       <div class="col-lg-12">
-        <ul class="nav nav-tabs justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Populor</a>
+        <ul class="nav nav-tabs justify-content-center " id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Popular</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Adventure</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Adventure</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Beath</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Beath</button>
           </li>
         </ul>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="Accesst/img/hile_see.png" alt="" class="img-fluid">
-          <h4>Kina Mountain</h4>
-          <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-          </svg></i>Cambodia</a>
-        </div>
+
+<!-- recomended nav-tabs box-card -->
+
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/hile_see.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/hile.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/see.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
       </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="Accesst/img/hile.png" alt="" class="img-fluid">
-          <h4>Kina Mountain</h4>
-          <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-          </svg></i>Cambodia</a>
-        </div>
+
+
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/hile_see.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/hile.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/see.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
       </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="Accesst/img/see.png" alt="" class="img-fluid">
-          <h4>Kina Mountain</h4>
-          <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-          </svg></i>Cambodia</a>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="Accesst/img/tree.png" alt="" class="img-fluid">
-          <h4>Kina Mountain</h4>
-          <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-          </svg></i>Cambodia</a>
-        </div>
+
+
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/hile_see.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/hile.png" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="Accesst/img/see.pn" alt="" class="img-fluid">
+              <h4>Kina Mountain</h4>
+              <a href="#" ><svg xmlns="http://www.w3.org/2000/svgg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></i>Cambodia</a>
+            </div>
+          </div>
       </div>
     </div>
+    
   </div>
 </section>
 <!-- this is silder section -->
@@ -254,3 +414,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+<!-- ========================== -->

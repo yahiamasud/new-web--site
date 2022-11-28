@@ -1,0 +1,196 @@
+/* <!-- this is header stat --> */
+body{
+    background-color: #E5E5E5 !important;
+}
+.header-part{
+  /* position: absolute;
+  z-index:1; */
+  
+ 
+}
+.header-nav .header-navbar .navbar-item .navbar-link{
+    /* color: white; */
+    padding: 14px 43px 15px 44px;
+    border-radius:10px ;
+    Font-size: 24px;
+    Line-height: 36px;
+    Line-height: 100%;
+}
+.header-nav .header-navbar .navbar-item .navbar-link:hover{
+    background-color: white;
+    color:#3E86F5 ;
+    transition: all 0.3s;
+}
+
+/* <!-- this is header-bannar --> */
+.bannar{
+   position: relative;
+   margin-top: 0px;
+}
+.bannar .background-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bannar .bannar-item .bannar-txet h1{
+    color: white;
+    Font-size: 64px;
+    Line-height: 96px;
+    padding-top:310px;
+    padding-bottom:40px;
+    text-align: center;
+
+
+}
+.bannar .bannar-item .bannar-txet p{
+    color: white;
+    Font-size: 24px;
+    Line-height: 48px;
+    Line-height: 200%;
+    text-align: center;
+    padding-bottom:289px;
+}
+
+/* <!-- this is main start --> */
+
+/* <!-- this is Special--> */
+.spceil-item .special-text h2{
+    padding-top: 160px;
+    padding-bottom:60px;
+    Font-size: 48px;
+    Line-height: 72px;
+    Line-height: 100%;
+    
+
+}
+/* <!-- this is Special nav-tabs --> */
+.spceil-nav{
+  background-color:white;
+  margin: 60px 570px 40px 530px;
+  border-radius:10px;
+}
+.spceil-navtabs {
+   border-bottom: none !important;
+   padding:10px !important;
+
+}
+
+.spceil-navtabs-link{
+    color: rgba(0, 0, 0, 0.5) !important;
+    Font-size: 18px;
+    Line-height: 27px;
+    Line-height: 100%;
+    padding: 10px 24px 9px 23px;
+}
+.spceil-navtabs-link:hover{
+    background-color: #3E86F5 !important;
+    color: white !important;
+}
+/* <!-- this is special nave-tabs box- --> */
+
+.box-1-card .card-body .relax {
+    color: #F178B6;
+    Font-size: 14px;
+    Line-height: 21px;
+    Line-height: 100%;
+    background-color:#FCDDEC ;
+    padding-left:15px;
+    padding-right:16px;
+    border-radius:100px;
+    margin-left:10px;
+    
+    
+
+}
+.box-1-card .card-body .adventure {
+    color:#7879F1 ;
+    Font-size: 14px;
+    Line-height: 21px;
+    Line-height: 100%;
+    background-color:#F1F1FD ;
+    padding-left:15px;
+    padding-right:16px;
+    border-radius:100px;
+    margin-left:10px;
+   
+
+}
+.box-1-card .card-body .naights{
+    color: gray;
+    margin-left:12px;
+    margin-top:30px;
+
+}
+.box-1-card .card-body .card-title{
+    Font-size: 24px;
+    Line-height: 36px;
+    Line-height: 100%;
+    color: black;
+    margin:10px;
+
+}
+.box-1-card .card-body .person{
+    margin-left:10px;
+    color: black;
+    text-decoration: none;
+  
+}
+.box-1-card .card-body .personmd{
+    color: gray;
+}
+.box-1-card .card-body .button-book{
+   float: right;
+}
+
+/* <!-- this is travel  section --> */
+.treavel{  
+    margin-top:240px !important;
+    margin-bottom:100px !important;
+}
+.treavel-img{
+    background-image: url(../img/hile_see_man.png);
+    background-repeat: no-repeat;
+    min-height:800px !important;
+
+}
+.treavel-img .badge-text{
+    background-color: white;
+    float: right;
+    margin-top:56px;
+    color: #3E86F5;
+    padding-top:12;
+   
+   
+}
+.treave-text h1{
+    padding-top:242px;
+    padding-bottom:20px;
+    Font-size: 48px;
+    Line-height: 72px;
+    Line-height: 100%;
+    color:#000000 ;
+}
+.treave-text p{
+    Font-size: 20px;
+    Line-height: 40px;
+    Line-height: 200%;
+    margin-bottom:20px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.treave-text .treavel-button{
+    margin-bottom:100px;
+}
+
+/* <!-- this is recommended section --> */
+.Recommened-text{
+    padding-top:200px;
+    padding-bottom:40px;
+}
+.Recommened-text h2{
+    Font-size: 48px;
+    Line-height: 72px;
+    color: #000000;
+
+}
