@@ -26,11 +26,13 @@ body{
 .bannar{
    position: relative;
    margin-top: 0px;
+   background-image: url(../img/banar_hile.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .bannar .background-image{
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 
 }
 .bannar .bannar-item .bannar-txet h1{
@@ -193,4 +195,37 @@ body{
     Line-height: 72px;
     color: #000000;
 
+}
+
+/* this is section register today */
+.register{
+    background-image:url(../img/star_world.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    border-radius:100px;
+    margin-top:80px !important;
+    margin-bottom:120px;
+}
+.register-text h2{
+    color: white;
+    Font-size: 48px;
+    Line-height: 72px;
+    padding-top:114px;
+    padding-bottom:40px;
+
+
+
+}
+.register-text .buttone{
+   margin-bottom:115px;
+   padding:25px 35px;
+   background-color: white !important;
+   color:#3E86F5 ;
+   Font-size: 20px;
+   Line-height: 30px;
+}
+.nav-footer{
+    margin-bottom:58px;
 }
