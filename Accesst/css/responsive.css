@@ -1,0 +1,165 @@
+/* ========================= desktop size */
+ /* ============================================ */
+@media (max-width: 1399.98px) {
+
+     /* this is head */
+    .header-navbar{
+        text-align: center;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .nave-barer{
+        text-align: center;
+        justify-content:end;
+    
+     }
+}
+   
+
+
+
+/* =========================  leptop size */
+ /* ============================================ */
+
+@media (max-width: 1199.98px) {
+
+    /* this is head */
+    .header-navbar{
+        text-align: center;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .bannar-txet h1{
+        margin-top:80px;
+    }
+
+    /* this is spceil navtabs */
+    .spceil-nav{
+        
+        justify-content: center;
+        align-items: center;
+    }
+    /*  <!-- this is discount-register section --> */
+    .spceil-navtabs-link {
+        text-align: center;
+        margin:05px !important;
+        padding:0px;
+        
+    }
+   
+    /* this is <!-- box-1-team--> */
+    .box-card {
+        margin-bottom:30px;
+    }
+    .card-body img{
+        width:100%;
+    }
+    /* <!-- this is travel  section --> */
+    .treave-text{
+        padding-left:50px;
+       
+    }
+    .treave-text h1{
+        margin-top:0px !important;
+    }
+  
+    /*  <!-- this is discount-register section --> */
+    .nave-barer{
+        text-align: center;
+        justify-content:end;
+    
+     }
+}
+/* =========================  tap size */
+ /* ============================================ */
+@media (max-width: 991.98px) {
+     /* this is head */
+    .spceil-nav{
+        text-align: center;
+        margin-top:50px;
+        margin-bottom:50px;
+    
+    }
+    /* this spceil nav tabs */
+    .spceil-nav{
+     
+    }
+    .spceil-navtabs-link {
+        text-align: center;
+       justify-content: center;
+       align-items: center;
+        
+    }
+    .spceil-navtabs{
+        justify-content: center;
+        align-items: center;
+        
+    }
+     /* this is <!-- box-1-team--> */
+    
+     .card-body img{
+        width:100%;
+    }
+     /* this is <!-- box-1-team--> */
+     .box-card {
+        margin-bottom:30px;
+    }
+    /* <!-- this is travel  section --> */
+    .treavel-img{
+        display:none;
+    }
+    /*  <!-- this is discount-register section --> */
+     .footer-items{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .nave-barer{
+        text-align: center;
+        justify-content: center;
+    
+     }
+      /* <!-- this is silder section --> */
+    .card-body-proffile{
+        text-align: center;
+    }
+}
+/* =========================  phone size */
+ /* ============================================ */
+
+@media (max-width: 767.98px) {
+     /* this is head */
+    .header-navbar{
+        text-align: center;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+     /* this spceil nav tabs */
+    .spceil-nav{
+        justify-content: center;
+        align-items: center;
+    }
+     /* this is <!-- box-1-team--> */
+     .card-body img{
+        width:100%;
+    }
+     /* <!-- this is silder section --> */
+     .card-body-proffile{
+        text-align: center;
+    }
+}
+/* ========================= smail size */
+ /* ============================================ */
+@media (max-width: 575.98px) {
+    /* this is <!-- box-1-team--> */
+    .card-body img{
+        width:100%;
+    }
+    /* <!-- this is silder section --> */
+    .card-body-proffile{
+        text-align: center;
+    }
+    .card-body-proffile img{
+        display: none;
+    }
+}

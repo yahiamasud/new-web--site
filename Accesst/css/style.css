@@ -1,7 +1,11 @@
-/* <!-- this is header stat --> */
+/* this is body  */
+
 body{
     background-color: #E5E5E5 !important;
 }
+
+/* <!-- this is header stat --> */
+
 .header-part{
   position: absolute;
   z-index:1;
@@ -9,7 +13,7 @@ body{
  
 }
 .header-nav .header-navbar .navbar-item .navbar-link{
-    /* color: white; */
+    color: white;
     padding: 14px 43px 15px 44px;
     border-radius:10px ;
     Font-size: 24px;
@@ -23,6 +27,7 @@ body{
 }
 
 /* <!-- this is header-bannar --> */
+
 .bannar{
    margin-top: 0px;
    background-image: url(../img/banar_hile.png);
@@ -57,6 +62,7 @@ body{
 /* <!-- this is main start --> */
 
 /* <!-- this is Special--> */
+
 .spceil-item .special-text h2{
     padding-top: 160px;
     padding-bottom:60px;
@@ -66,7 +72,9 @@ body{
     
 
 }
+
 /* <!-- this is Special nav-tabs --> */
+
 .spceil-nav{
   background-color:white;
   margin: 60px 570px 40px 530px;
@@ -89,6 +97,7 @@ body{
     background-color: #3E86F5 !important;
     color: white !important;
 }
+
 /* <!-- this is special nave-tabs box- --> */
 
 .box-1-card .card-body .relax {
@@ -146,6 +155,8 @@ body{
 }
 
 /* <!-- this is travel  section --> */
+
+
 .treavel{  
     margin-top:240px !important;
     margin-bottom:100px !important;
@@ -183,6 +194,9 @@ body{
 }
 .treave-text .treavel-button{
     margin-bottom:100px;
+    padding: 23px 34px;
+    Font-size: 20px;
+    Line-height: 30px;
 }
 
 /* <!-- this is recommended section --> */
@@ -197,7 +211,10 @@ body{
     color: #000000;
 
 }
+
 /* this is silder section  */
+
+
 .proffil{
     border-radius:50px !important;
     margin-bottom:100px;
@@ -228,6 +245,8 @@ body{
 
 
 /* this is section register today */
+
+
 .register{
     background-image:url(../img/star_world.png);
     background-position: center;
@@ -248,7 +267,7 @@ body{
 
 
 }
-.register-text .buttone{
+.register-text .register-button{
    margin-bottom:115px;
    padding:25px 35px;
    background-color: white !important;
@@ -259,3 +278,7 @@ body{
 .nav-footer{
     margin-bottom:58px;
 }
+
+/* ---------- */
+/* this is end */
+/* ---------- */
