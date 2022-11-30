@@ -200,18 +200,34 @@ body{
 }
 
 /* <!-- this is recommended section --> */
-
-.Recommened-text{
-    padding-top:200px;
-    padding-bottom:40px;
+.recommended-text{
+  margin-bottom:40px;
 }
-.Recommened-text h2{
-    Font-size: 48px;
-    Line-height: 72px;
-    color: #000000;
-
+.navtabs2{
+    margin-bottom:40px;
+}
+.recommended-box-contant{
+    margin-bottom:331px;
 }
 
+.recommended-box-card{
+    border-radius:255px;
+}
+.recommended-box-card img{
+   width:100%;
+   padding:20px;
+   
+    
+}
+.cambosia-text{
+  padding-left:20px;
+  padding-bottom:10px;
+  
+}
+.cambosia-text a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
 /* this is silder section  */
 
 
