@@ -211,7 +211,7 @@ body{
 }
 
 .recommended-box-card{
-    border-radius:255px;
+    border-radius: 25px !important;
 }
 .recommended-box-card img{
    width:100%;

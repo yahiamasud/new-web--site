@@ -108,6 +108,14 @@
     .treavel-img{
         display:none;
     }
+    /* <!-- this is recommended section --> */
+    .navtabs2-box {
+        justify-content: center;
+    }
+    .recommended-box-card{
+        margin-top:20PX;
+        border-radius: 50PX;
+    }
     /*  <!-- this is discount-register section --> */
      .footer-items{
         text-align: center;
